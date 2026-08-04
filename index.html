@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="EaglerCraft web client deployment folder" />
+    <title>EaglerCraft Client</title>
+    <style>
+      :root { color-scheme: dark; }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #0f172a, #111827);
+        color: #f9fafb;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+      .card {
+        width: min(92vw, 760px);
+        background: rgba(15, 23, 42, 0.92);
+        border: 1px solid rgba(255,255,255,0.12);
+        border-radius: 16px;
+        padding: 32px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+      }
+      h1 { margin-top: 0; font-size: 2rem; }
+      p { line-height: 1.6; color: #d1d5db; }
+      code { background: rgba(255,255,255,0.08); padding: 2px 6px; border-radius: 6px; }
+      .note { margin-top: 16px; padding: 12px 14px; background: rgba(59,130,246,0.18); border: 1px solid rgba(59,130,246,0.35); border-radius: 10px; }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <h1>EaglerCraft deployment folder</h1>
+      <p>This folder is ready to be uploaded to GitHub Pages, Vercel, Netlify, or any static host.</p>
+      <p>The full browser client bundle could not be completed in this environment yet because the required MCP/Minecraft build inputs are missing, but this static folder is now in place for deployment.</p>
+      <div class="note">
+        <strong>Next step:</strong> replace this placeholder with the generated <code>index.html</code>, <code>classes.js</code>, <code>assets.epk</code>, and <code>lang/</code> files once the full build completes.
+      </div>
+    </main>
+  </body>
+</html>
